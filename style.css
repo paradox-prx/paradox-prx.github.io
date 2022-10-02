@@ -12,6 +12,7 @@ background-attachment: fixed;
 .heading{
     color: white;
     font-size: 90px;
+    margin-bottom: -20px;
 }
 .head{
     display: inline-block;
@@ -25,11 +26,13 @@ background-attachment: fixed;
 .sub-heading{
     color: rgb(238, 146, 9);
     font-size: 70px;
+    line-height: 50px;
     
 }
 .text{
     color: white;
     font-size: xx-large;
+    line-height: 45px;
 }
 .text2{
     color: white;
@@ -49,5 +52,31 @@ a:hover{
 }
 .footer{
     color: white;
+}
+
+
+.btn{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: xx-large;
+    transition: all 0.3s;
+    margin: 20px;
+}
+.btn:hover{
+    color: aqua;
+    border-color: aqua;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
 }
 
