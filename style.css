@@ -1,0 +1,53 @@
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{ 
+background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(images/tech.jpg);
+background-position: right;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.heading{
+    color: white;
+    font-size: 90px;
+}
+.head{
+    display: inline-block;
+    margin-left: 70px;
+}
+.img{
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: -10px;
+}
+.sub-heading{
+    color: rgb(238, 146, 9);
+    font-size: 70px;
+    
+}
+.text{
+    color: white;
+    font-size: xx-large;
+}
+.text2{
+    color: white;
+    font-size: 60px;
+}
+a{
+    color: rgb(238, 146, 9);
+    
+}
+a:hover{
+    color: aqua;
+}
+.blue-bg{
+    background-color: rgb(4,20,51);
+    padding: 50px;
+    margin-top: -4px;
+}
+.footer{
+    color: white;
+}
+
