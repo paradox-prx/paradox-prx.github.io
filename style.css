@@ -31,8 +31,16 @@ background-attachment: fixed;
 }
 .text{
     color: white;
-    font-size: xx-large;
-    line-height: 45px;
+    font-size: x-large;
+    line-height: 52px;
+}
+.blue-text{
+color:aqua;
+text-transform: capitalize;
+}
+.yellow-text{
+    color: rgb(238, 146, 9);
+    text-transform: capitalize;
 }
 .text2{
     color: white;
