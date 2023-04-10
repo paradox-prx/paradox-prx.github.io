@@ -1,0 +1,248 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Light.otf);
+  }
+    
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-ExtraBold.otf);
+}    
+*{
+    font-family: gilroy;
+    
+}
+.navbar{
+    width:100%;
+    height:100vh;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    color: rgba(255,255,255,0.3);
+  }
+  nav{
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 120px;
+  }
+  nav ul .nav-list{
+    list-style-type: none;
+    margin-left: 70px;
+    cursor: pointer;
+  }
+  .nav-list{
+    display: inline-block;
+  }
+  nav ul .nav-list a{
+    text-decoration: none;
+    padding: 80px;
+    font-size: 20px;
+
+  }
+  .nav-list:hover{
+    color: white;
+    font-weight: 800;
+    text-shadow: 0px -20px 40px  white;
+  }
+body{
+    margin: 0;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.head{
+    color: white;
+    font-size: 70px;
+    font-family: gilroy-bold;
+    line-height: 30px;
+    letter-spacing: 4px;
+
+}
+
+.top{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+#scroll{
+    margin-top: -25px;
+}
+.process-button{
+    width: 330px;
+    height: 65px;
+    padding-left: 40px;
+    background-color: #3821D1;
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: left;
+    transition: all 0.3s;
+    
+}
+.process-button:hover{
+    width: 340px;
+    height: 69px;
+    margin-right: 10px;
+    background-color: #4b35da;
+}
+
+.head-text{
+    padding-left: 100px;
+    padding-top: 170px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+
+#reel{
+    margin-top: -260px;
+    margin-left: 200px;
+    font-size: 91px;
+}
+.play{
+    background-color: #3821D1;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 90px;
+    margin-left: -200px;
+    cursor: pointer;
+    color: white;
+}
+.home-2{
+    background-image: url(2020.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+     vertical-align: middle;
+     padding-top: 140px;
+    padding-left: 40px;
+}
+#para{
+    margin-top: 260px;
+    margin-bottom: 70px;
+}
+
+.home-3{
+    background-color: #0c0e13;
+}
+.head-text-2{
+    margin-top: 200px;
+    padding-left: 100px;
+    display: inline-block;
+    width: 34%;
+    font-family: gilroy;
+}
+.process{
+    display: inline-flex;
+    float: right;
+    padding-top: 200px;
+}
+
+#home4{
+    margin-top: -260px;
+    padding-top: 60px;
+    background-image: url(back.png);
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url();
+}
+
+#speed{
+display: inline-block;
+    margin-left: -100px;
+    width: 500px;
+    height: 500px;
+}
+#process-pic{
+    vertical-align: middle;
+    float: right;
+}
+.head-text-3{
+    padding-left: 100px;
+    display: inline-block;
+    width: 34%;
+    padding-bottom: 100px;
+    vertical-align: middle;
+}
+
+.home-5{
+    background-color: white;
+}
+.head-text-4{
+    padding-top: 100px;
+    padding-left: 100px;
+    display: inline-block;
+    width: 34%;
+    padding-bottom: 150px;
+}
+.list{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.award-list{
+    padding-bottom: 30px;
+}
+.list-2{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 150px;
+    padding-left: 50px;
+
+}
+.home-6{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(home-abt-us.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+
+}
+.counter{
+    display: inline-block;
+    color: white;
+    padding-left: 80px;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.work{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+td:hover{
+background-image: url(hover.png);
+}
+.table-img:hover{
+    opacity: 0;
+}
+
+td
+    {
+      border: 1px solid rgba(255,255,255,0.2);
+      
+    }
+table{
+    border-collapse: collapse;
+}
+
+.grey{
+    color: rgba(255,255,255,0.2);
+}
+
